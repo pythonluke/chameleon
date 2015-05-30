@@ -55,7 +55,7 @@ def py(filname,debugi,runi):
             tok = tok + x[count]
             #print (indent + "15")
             #print (line)
-            #print (tok)
+            print (tok)
             #print (com)
             #print (lcom)
             
@@ -88,7 +88,7 @@ def py(filname,debugi,runi):
             if printy == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 printy = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("running")
                 y = y + indent + "print (" + arg[1:-1] + ")\n"
@@ -97,7 +97,7 @@ def py(filname,debugi,runi):
             if var == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 var = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("var")
                 #print (arg[1:-1])
@@ -107,7 +107,7 @@ def py(filname,debugi,runi):
             if runy == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 runy = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("running")
                 y = y + indent + arg[1:-1] + "\n"
@@ -116,7 +116,7 @@ def py(filname,debugi,runi):
             if returny == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 returny = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("running")
                 y = y + indent + "return" + arg[1:-1] + "\n"
@@ -125,7 +125,7 @@ def py(filname,debugi,runi):
             if fromy == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 fromy = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("running")
                 y = y + indent + "from" + arg[:-1] + "\n"
@@ -134,7 +134,7 @@ def py(filname,debugi,runi):
             if importy == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 importy = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("running")
                 y = y + indent + "import" + arg[:-1] + "\n"
@@ -143,7 +143,7 @@ def py(filname,debugi,runi):
             if thry == 1 and x[count - 1] == ";" and not x[count - 2] == "//" and string == -1:
                 thry = 0
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 #print ("running")
                 y = y + indent + "_thread.start_new_thread" + "(" + arg[:-1] + ")\n"
@@ -231,7 +231,7 @@ def py(filname,debugi,runi):
                 fory = 0
                 #print ("z")
                 indent = indent[:-4]  
-                #print ("for loop ended")
+                print ("for loop ended")
             elif funcarg == 0 and funcy == 1 and tok == "}func" and not x[count - 1] == "\\" and string == -1:
                 funcy = 0
                 #print ("h")
@@ -247,7 +247,7 @@ def py(filname,debugi,runi):
      
             if elsearg == 1 and elsey == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 elsearg = 0
                 #print ("arg")
@@ -257,7 +257,7 @@ def py(filname,debugi,runi):
                 arg = ""
             if tryarg == 1 and tryy == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1            
                 tryarg = 0
                 #print ("arg")
@@ -267,7 +267,7 @@ def py(filname,debugi,runi):
                 arg = ""
             if elifarg == 1 and elify == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1            
                 elifarg = 0
                 #print ("arg")
@@ -277,7 +277,7 @@ def py(filname,debugi,runi):
                 arg = ""
             if whilearg == 1 and whiley == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 whilearg = 0
                 #print ("while")
@@ -287,7 +287,7 @@ def py(filname,debugi,runi):
                 arg = ""  
             if forarg == 1 and fory == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1
                 forarg = 0
                 #print ("while")
@@ -295,10 +295,10 @@ def py(filname,debugi,runi):
                 y = y + indent + "for" + arg[:-1] + ":\n"
                 indent = indent + "    "
                 arg = ""      
-                #print ("for loop evaluate::::::::::::::::::::::::::::::::::::::::::::::::::::")
+                print ("for loop evaluate::::::::::::::::::::::::::::::::::::::::::::::::::::")
             if ifarg == 1 and ify == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1           
                 ifarg = 0
                 #print ("arg")
@@ -309,7 +309,7 @@ def py(filname,debugi,runi):
                 arg = ""
             if funcarg == 1 and funcy == 1 and x[count - 1] == "{"  and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1            
                 funcarg = 0
                 #print ("arg")
@@ -320,7 +320,7 @@ def py(filname,debugi,runi):
                 arg = ""
             if classarg == 1 and classy == 1 and x[count] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1            
                 classarg = 0
                 #print ("arg")
@@ -332,7 +332,7 @@ def py(filname,debugi,runi):
 
             if exceptarg == 1 and excepty == 1 and x[count - 1] == "{" and not x[count - 2] == "\\" and string == -1:
                 ldict[pyline] = line
-                #print (ldict)
+                print (ldict)
                 pyline = pyline + 1            
                 exceptarg = 0
                 #print ("arg")
@@ -444,7 +444,7 @@ def py(filname,debugi,runi):
                     arg = ""
                     lock = lock + 1
                 else:
-                    #print ("SyntaxError: missing ; at line nimber:" + str(line))
+                    print ("SyntaxError: missing ; at line nimber:" + str(line))
                     y = input("close the program")
                     end = 1
                     break
@@ -457,7 +457,7 @@ def py(filname,debugi,runi):
                     arg = ""
                     lock = lock + 1
                 else:
-                    #print ("SyntaxError: missing ; at line nimber:" + str(line))
+                    print ("SyntaxError: missing ; at line nimber:" + str(line))
                     y = input("close the program")
                     end = 1
                     break
@@ -549,10 +549,6 @@ def py(filname,debugi,runi):
                     y = input("close the program")
                     end = 1
                     break
-            if tok == "break":
-                y = indent + "break\n"
-            if tok == "pass":
-                y = indent + "pass\n"
             
                 
             count = count + 1
