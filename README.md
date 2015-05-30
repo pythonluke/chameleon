@@ -25,42 +25,7 @@ If you did this correctly you should get the result Hello World!.
 When I say compile I mean it translates the chameleon to python code which the python interpreter can run so if you distribute 
 the translated file which is always the filename + .py the user does not have to download any extra files.
 
-Cheat Sheet:
-Statements:
-  end with ;
-Single Line comments:
-  start with #
-Multi Line comments:
-  start with /* and end with */
-New line character:
-  is ^
-variables:
-  are dynamic
-  are strongly typed
-  use the var keyword
-  have to be set to a value or None
-  list or arrays start with [ and end with ]
-  dictionaries start with { and end with } keys are defined with : 
-  tupples start with ( and end with ) and must have comma even with only one item
-  user input is gotten with using the input () function
-functions:
-  are declared with the func keyword 
-  arguments and name of function are defined befor the { character
-  the end of a function is the keyword }func
-  if not in a statement they are run using the run key word
-  if not in a statement to run function in a thread import the module _thread like this: import _thread and use the thr keyword istead of the run keyword.
-loops:
-  there is too types of loops while and for
-  while loops:
-    start with the keyword while, the condition is placed before the { character and end with the }while
-  conditional operators:
-    equal to is ==
-    not equal to is !=
-    equal or greater than is >=
-    equal or less than is <=
-    or is simply or
-    and is and
-    less than is <
+
     greater than is >
   
   
