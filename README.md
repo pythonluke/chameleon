@@ -22,5 +22,7 @@ that are dependent on each other type you have to all compile then in the same p
 Finally it will ask you do you want to have to press space all the time between runs, say y otherwise the program will end and immediatly re run.
 If you did this correctly you should get the result Hello World!.
 
+For more info visit my youtube channel LearnChameleon
+
 When I say compile I mean it translates the chameleon to python code which the python interpreter can run so if you distribute 
 the translated file which is always the filename + .py the user does not have to download any extra files.
