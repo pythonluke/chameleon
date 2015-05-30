@@ -24,11 +24,3 @@ If you did this correctly you should get the result Hello World!.
 
 When I say compile I mean it translates the chameleon to python code which the python interpreter can run so if you distribute 
 the translated file which is always the filename + .py the user does not have to download any extra files.
-
-
-    greater than is >
-  
-  
-  
-
-
