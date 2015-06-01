@@ -1,0 +1,73 @@
+import time ;
+import random ; 
+import _thread ;
+from tkinter import * ;
+func loop(v,h){
+    run upper1.SBmoveX(win,1) ;
+    run lower1.SBmoveX(win,1) ;
+    
+    run upper2.SBmoveX(win,1) ;
+    run lower2.SBmoveX(win,1) ;
+    
+    var up1 = upper1.Cpos() ;
+    var up2 = upper2.Cpos() ;
+    if up1[0] > 380 {
+        run upper1.SBmoveX(win,-380) ;
+        run lower1.SBmoveX(win,-380) ; 
+    }if 
+    elif up2[0] > 380 {
+        run upper2.SBmoveX(win,-380) ;
+        run lower2.SBmoveX(win,-380) ; 
+    }elif 
+    if upper1.touching(bird) or lower1.touching(bird) {
+        var close(win) ;
+        
+    }if
+    if upper2.touching(bird) or lower2.touching(bird) {
+        var close(win) ;
+        
+    }if
+    
+    
+}func
+
+func main(h,v) {
+    var global fps ;
+    var fps = 60 ;
+    
+    while True {
+        thr loop(1,1) ;
+        run time.sleep(1 / fps) ;
+    }while
+}func
+var win = Game() ;
+run win.frame("Flappy Bird",(400,400)) ;
+run win.resizable( False , False ) ;
+
+var bird = Game() ;
+run bird.RectSprite(win,350,30,30,30,"yellow") ;
+run bird.body(350,30,30,30) ;
+
+#upper fist pipe
+var upper1 = Game() ;
+run upper1.RectSprite(win,200,0,20,150,"black") ;
+run upper1.body(200,0,20,150) ;
+#lower first pipe
+var lower1 = Game() ;
+run lower1.RectSprite(win,200,250,20,150,"black") ;
+run lower1.body(200,250,20,150) ;
+
+#upper second pipe
+var upper2 = Game() ;
+run upper2.RectSprite(win,0,0,20,150,"black") ;
+run upper2.body(0,0,20,150) ;
+#lower second pipe
+var lower2 = Game() ;
+run lower2.RectSprite(win,0,250,20,150,"black") ;
+run lower2.body(0,250,20,150) ;
+
+thr main(1,1) ;
+
+run win.eventloop() ;
+
+
