@@ -1,0 +1,199 @@
+This text file was created because Paint.NET crashed.
+Please e-mail this file to crashlog@getpaint.net so we can diagnose and fix the problem.
+
+Application version: Paint.NET v3.5.10 (Final Release build 3.510.4297.28964)
+Time of crash: 06.04.2014 18:31:27
+Application uptime: 00:02:43.8373710
+Install directory: C:\Program Files\Paint.NET
+Current directory: C:\Program Files\Paint.NET
+OS Version: 6.1.7601.65536 Service Pack 1 Workstation x64
+.NET version: CLR 2.0.50727.5477 x64, FX 2.0 (rtm sp1 sp2) 3.0 (rtm sp1 sp2) 3.5 (rtm sp1 sp1_CP) 4.0 (rtm rtmEx)
+Processor: 8x "Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz" @ ~2195MHz (DEP, SSE, SSE2, SSE3, SSSE3, SSE4_1, SSE4_2), fps=0x1
+Physical memory: 6054 MB
+UI DPI: 144.00 dpi (1.50x scale)
+UI Theme: Aero/Aero + DWM (Aero.msstyles)
+Updates: true, 04.10.2013
+Locale: pdnr.c: en-US, hklm: en-US, hkcu: n/a, cc: de-CH, cuic: en-US
+Managed assemblies: 
+    mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 @ C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorlib.dll
+    PaintDotNet, Version=3.510.4297.28970, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.exe
+    PaintDotNet.Base, Version=3.510.4297.28957, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.Base.dll
+    System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 @ C:\Windows\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll
+    WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 @ C:\Windows\assembly\GAC_MSIL\WindowsBase\3.0.0.0__31bf3856ad364e35\WindowsBase.dll
+    System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 @ C:\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+    System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a @ C:\Windows\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+    System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 @ C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll
+    PaintDotNet.Core, Version=3.510.4297.28965, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.Core.dll
+    PaintDotNet.SystemLayer, Version=3.510.4297.28964, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.SystemLayer.dll
+    PaintDotNet.Resources, Version=3.510.4297.28964, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.Resources.dll
+    PaintDotNet.Data, Version=3.510.4297.28969, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.Data.dll
+    PaintDotNet.Effects, Version=3.510.4297.28970, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.Effects.dll
+    PaintDotNet.SystemLayer.Native.x64, Version=3.510.4297.28963, Culture=neutral, PublicKeyToken=null @ C:\Program Files\Paint.NET\PaintDotNet.SystemLayer.Native.x64.dll
+    msvcm90, Version=9.0.30729.6161, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a @ C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251\msvcm90.dll
+    System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 @ C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll
+    XPClient, Version=2.2.0.18017, Culture=neutral, PublicKeyToken=27c7b2c78abbbec9 @ C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\XPClient.dll
+    LogicNP.EZNamespaceExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=71b4fb55da6d4fe3 @ C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\LogicNP.EZNamespaceExtensions.dll
+    eCaremeDLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=12fad8a9741f11dc @ C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\eCaremeDLL.dll
+    Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a @ C:\Windows\assembly\GAC_MSIL\Microsoft.VisualBasic\8.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll
+    log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821 @ C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\log4net.dll
+    System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a @ C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+Native modules: 
+    C:\Program Files\Paint.NET\PaintDotNet.exe, version='3.510.4297.28970'
+    C:\Windows\SYSTEM32\ntdll.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\SYSTEM32\MSCOREE.DLL, version='4.0.40305.0 (Main.040305-0000)'
+    C:\Windows\system32\KERNEL32.dll, version='6.1.7601.18015 (win7sp1_gdr.121129-1432)'
+    C:\Windows\system32\KERNELBASE.dll, version='6.1.7601.18015 (win7sp1_gdr.121129-1432)'
+    C:\Windows\system32\ADVAPI32.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\msvcrt.dll, version='7.0.7601.17744 (win7sp1_gdr.111215-1535)'
+    C:\Windows\SYSTEM32\sechost.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\RPCRT4.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll, version='4.0.30319.18408 built by: FX451RTMGREL'
+    C:\Windows\system32\SHLWAPI.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\GDI32.dll, version='6.1.7601.18275 (win7sp1_gdr.131002-1533)'
+    C:\Windows\system32\USER32.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\LPK.dll, version='6.1.7601.18177 (win7sp1_gdr.130605-1534)'
+    C:\Windows\system32\USP10.dll, version='1.0626.7601.18009 (win7sp1_gdr.121121-1431)'
+    C:\Windows\system32\IMM32.DLL, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\MSCTF.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\nvinitx.dll, version='9.18.13.1144'
+    C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorwks.dll, version='2.0.50727.5477 (Win7SP1GDR.050727-5400)'
+    C:\Windows\WinSxS\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_88e41e092fab0294\MSVCR80.dll, version='8.00.50727.6195'
+    C:\Windows\system32\shell32.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\ole32.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\profapi.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\mscorlib\1cf8081a4a07bd043db98048fd9837d2\mscorlib.ni.dll, version='2.0.50727.5477 (Win7SP1GDR.050727-5400)'
+    C:\Windows\system32\CRYPTBASE.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\uxtheme.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\System\08fb3d96a3b6d19f7927a55386cd2ef6\System.ni.dll, version='2.0.50727.5467 (Win7SP1GDR.050727-5400)'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\System.Core\a9c7eeff75af9411d57f4bcdf27735c6\System.Core.ni.dll, version='3.5.30729.5420 built by: Win7SP1'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\WindowsBase\a428e4393c0464c39858baf9ec6a7b14\WindowsBase.ni.dll, version='3.0.6920.5453 built by: Win7SP1GDR'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\System.Drawing\b367fd01f48d787aaff9b81f61a7e0b3\System.Drawing.ni.dll, version='2.0.50727.5467 (Win7SP1GDR.050727-5400)'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\System.Windows.Forms\518891aa3124f964aaa81f7ba36e45e8\System.Windows.Forms.ni.dll, version='2.0.50727.5468 (Win7SP1GDR.050727-5400)'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.Base\1b5cd0f83c98453789aaa9e62c3d3e0c\PaintDotNet.Base.ni.dll, version='3.510.4297.28957'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.SystemL#\bcb5857a367b5e5d8af5048b97a2a1d6\PaintDotNet.SystemLayer.ni.dll, version='3.510.4297.28964'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.Resourc#\c1654cdb3574b009b6e77c84cf2b951d\PaintDotNet.Resources.ni.dll, version='3.510.4297.28964'
+    C:\Windows\system32\CRYPTSP.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\rsaenh.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.Core\4b520cd132bf9620925bf44763de0d2b\PaintDotNet.Core.ni.dll, version='3.510.4297.28965'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.Data\309d5b3519374fc3c8ccc846ae74f7f1\PaintDotNet.Data.ni.dll, version='3.510.4297.28969'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet\4addf46382e6c02ae4dab32a33c381e6\PaintDotNet.ni.exe, version='3.510.4297.28970'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.SystemL#\0c9ba8f007286e01b2d23878ace484ca\PaintDotNet.SystemLayer.Native.x64.ni.dll, version='3.510.0.0'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\Interop.WIA\e2aba410ca912da1b2095af8f93b66a8\Interop.WIA.ni.dll, version='1.0.0.0'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\PaintDotNet.Effects\eb80442d3c85a01ca30be45b931e024c\PaintDotNet.Effects.ni.dll, version='3.510.4297.28970'
+    C:\Program Files\Paint.NET\Native.x64\PaintDotNet.Native.x64.dll, version='3.510.0.0'
+    C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251\MSVCR90.dll, version='9.00.30729.6161'
+    C:\Windows\WinSxS\amd64_microsoft.vc90.openmp_1fc8b3b9a1e18e3b_9.0.30729.6161_none_390d35aa0a1f21f9\VCOMP90.DLL, version='9.00.30729.6161 built by: QFE'
+    C:\Windows\system32\dwmapi.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18120_none_2b25b14c71ebf230\gdiplus.dll, version='6.1.7601.18120 (win7sp1_gdr.130402-1532)'
+    C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorjit.dll, version='2.0.50727.5467 (Win7SP1GDR.050727-5400)'
+    C:\Windows\system32\WindowsCodecs.dll, version='6.2.9200.16810 (win8_gdr.140129-1238)'
+    C:\Program Files (x86)\Allin1Convert_8h\bar\1.bin\AppIntegratorStub64.dll, version='1.0.7.157'
+    C:\Windows\system32\USERENV.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\VERSION.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\comctl32.dll, version='6.10 (win7_rtm.090713-1255)'
+    C:\Program Files\Paint.NET\PaintDotNet.SystemLayer.Native.x64.dll, version='3.510.0.0'
+    C:\Windows\system32\OLEAUT32.dll, version='6.1.7601.17676'
+    C:\Windows\WinSxS\amd64_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_0a1fd3a3a768b895\ATL90.DLL, version='9.00.30729.6161'
+    C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251\msvcm90.dll, version='9.00.30729.6161'
+    C:\Windows\system32\d2d1.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\dwrite.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\RpcRtRemote.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\wtsapi32.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\WINSTA.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Program Files (x86)\Allin1Convert_8h\bar\1.bin\8hbrstub64.dll, version='1,0,2,0'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\System.Xml\759066785d84d8a334b80e0fb3fa79a6\System.Xml.ni.dll, version='2.0.50727.5476 (Win7SP1GDR.050727-5400)'
+    C:\Windows\system32\CLBCatQ.DLL, version='2001.12.8530.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\comdlg32.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\SETUPAPI.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\CFGMGR32.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\DEVOBJ.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\propsys.dll, version='7.00.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\ntmarta.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\WLDAP32.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Program Files\Common Files\microsoft shared\ink\tiptsf.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\explorerframe.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\DUser.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\DUI70.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\apphelp.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\ASUSWSShellExt64.dll, version='1.1.0.27'
+    C:\Windows\system32\EhStorShell.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\ntshrui.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\srvcli.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\cscapi.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\slc.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\IconCodecService.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\msls31.dll, version='3.10.349.0'
+    C:\Windows\system32\xmllite.dll, version='1.3.1001.0'
+    C:\Windows\system32\OLEACC.dll, version='7.0.0.0 (win7sp1_gdr.110826-1504)'
+    C:\Windows\system32\UIAutomationCore.dll, version='7.0.0.0 (win7_rtm.090713-1255)'
+    C:\Windows\system32\PSAPI.DLL, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\StructuredQuery.dll, version='7.00.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\System32\Secur32.dll, version='6.1.7601.18270 (win7sp1_gdr.130924-1532)'
+    C:\Windows\system32\SSPICLI.DLL, version='6.1.7601.18270 (win7sp1_gdr.130924-1532)'
+    C:\Windows\system32\actxprxy.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Program Files\Internet Explorer\ieproxy.dll, version='11.00.9600.16521 (winblue_gdr_escrow.140228-1503)'
+    C:\Windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\api-ms-win-downlevel-shlwapi-l2-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\thumbcache.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\SHDOCVW.dll, version='6.1.7601.18222 (win7sp1_gdr.130725-1535)'
+    C:\Windows\system32\ieframe.DLL, version='11.00.9600.16428 (winblue_gdr.131013-1700)'
+    C:\Windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\api-ms-win-downlevel-shell32-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\api-ms-win-downlevel-version-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\normaliz.DLL, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\iertutil.dll, version='11.00.9600.16521 (winblue_gdr_escrow.140228-1503)'
+    C:\Windows\system32\SearchFolder.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\urlmon.dll, version='11.00.9600.16428 (winblue_gdr.131013-1700)'
+    C:\Windows\system32\api-ms-win-downlevel-ole32-l1-1-0.dll, version='6.2.9200.16492 (win8_gdr_oobssr.130113-0015)'
+    C:\Windows\system32\WININET.dll, version='11.00.9600.16428 (winblue_gdr.131013-1700)'
+    C:\Windows\system32\LINKINFO.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\MPR.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\drprov.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\ntlanman.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\davclnt.dll, version='6.1.7601.18201 (win7sp1_gdr.130703-2233)'
+    C:\Windows\System32\DAVHLPR.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\wkscli.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\netutils.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\NetworkExplorer.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\sxs.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\WINMM.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\XPClient.dll, version='2.2.0.0'
+    C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\LogicNP.EZNamespaceExtensions.dll, version='4.0.0.0'
+    C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\eCaremeDLL.dll, version='1.0.0.0'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\Microsoft.VisualBas#\ea10053d04c0897ca8cfc378c9ed0ed5\Microsoft.VisualBasic.ni.dll, version='8.0.50727.5420 (Win7SP1.050727-5400)'
+    C:\Windows\system32\shfolder.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Program Files (x86)\ASUS\ASUS WebStorage\3.0.84.161\log4net.dll, version='1.2.10.0'
+    C:\Windows\assembly\NativeImages_v2.0.50727_64\System.Configuration\77ec5e0826fa5904934ff090d87b9146\System.Configuration.ni.dll, version='2.0.50727.5476 (Win7SP1GDR.050727-5400)'
+    C:\Windows\system32\ws2_32.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\NSI.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\mswsock.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\wshtcpip.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\wship6.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\NLAapi.dll, version='6.1.7601.17964 (win7sp1_gdr.121003-0333)'
+    C:\Windows\system32\napinsp.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\pnrpnsp.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\DNSAPI.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\System32\winrnr.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Program Files\Common Files\Microsoft Shared\Windows Live\WLIDNSP.DLL, version='7.250.4225.0'
+    C:\Windows\system32\wshbth.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\wpdshext.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\PortableDeviceApi.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\system32\WINTRUST.dll, version='6.1.7601.18205 (win7sp1_gdr.130708-1532)'
+    C:\Windows\system32\CRYPT32.dll, version='6.1.7601.18277 (win7sp1_gdr.131005-0934)'
+    C:\Windows\system32\MSASN1.dll, version='6.1.7601.17514 (win7sp1_rtm.101119-1850)'
+    C:\Windows\system32\EhStorAPI.dll, version='6.1.7600.16385 (win7_rtm.090713-1255)'
+    C:\Windows\Microsoft.NET\Framework64\v2.0.50727\diasymreader.dll, version='8.0.50727.5420 (Win7SP1.050727-5400)'
+    C:\Windows\system32\MsftEdit.dll, version='5.41.21.2510'
+
+Exception details:
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files\Paint.NET\Language\URL.resx'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Resources.ResXResourceReader.EnsureResData()
+   at System.Resources.ResXResourceReader.GetEnumerator()
+   at eCaremeDLL.PublicFunction.CheckAndLoadLanguage(Boolean ReloadLang)
+------------------------------------------------------------------------------
